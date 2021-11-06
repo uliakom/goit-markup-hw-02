@@ -130,6 +130,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
+.portfolio-item-list .link {
+  color: inherit;
+}
 
 /* ---------------FOOTER------------------ */
 
