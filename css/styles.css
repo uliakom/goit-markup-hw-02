@@ -46,9 +46,7 @@ body {
 
 .logo:hover,
 .logo:focus {
-  text-decoration: underline;
-  text-decoration-color: var(--accent-color);
-  text-decoration-thickness: 3px;
+  color: var(--accent-color);
 }
 
 .logo-black {
@@ -64,10 +62,12 @@ body {
 }
 
 .header-link:hover,
-.header-link:focus {
-  text-decoration: underline;
-  text-decoration-color: var(--accent-color);
-  text-decoration-thickness: 3px;
+.header link:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
 }
 
 .header-address-link {
@@ -80,9 +80,7 @@ body {
 
 .header-address-link:hover,
 .header-address-link:focus {
-  text-decoration: underline;
-  text-decoration-color: var(--accent-color);
-  text-decoration-thickness: 3px;
+  color: var(--accent-color);
 }
 
 /* ---------------ПОРТФОЛИО------------------ */
@@ -105,9 +103,8 @@ body {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  text-decoration: underline;
-  text-decoration-color: var(--accent-color);
-  text-decoration-thickness: 3px;
+  background-color: var(--accent-color);
+  color: var(--second-text-color);
 }
 
 .portfolio-title {
@@ -119,9 +116,7 @@ body {
 
 .portfolio-title:hover,
 .portfolio-title:focus {
-  text-decoration: underline;
-  text-decoration-color: var(--accent-color);
-  text-decoration-thickness: 3px;
+  color: var(--accent-color);
 }
 
 .portfolio-text {
@@ -155,9 +150,7 @@ body {
 
 .footer .link:hover,
 .footer .link:focus {
-  text-decoration: underline;
-  text-decoration-color: var(--accent-color);
-  text-decoration-thickness: 3px;
+  color: var(--accent-color);
 }
 
 .footer-email {
